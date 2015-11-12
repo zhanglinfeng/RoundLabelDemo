@@ -26,6 +26,7 @@
 
 
 -(void)setText:(NSString *)text {
+    self.hidden = text.length < 1 ? YES : NO;
     _currentText = text;
     if (text.length > 2) {
         text = @"99+";
