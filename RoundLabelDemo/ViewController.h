@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RoundLabel.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet RoundLabel *lb;
+@property (weak, nonatomic) IBOutlet UITextField *tf;
+- (IBAction)sent:(id)sender;
 
 @end
 

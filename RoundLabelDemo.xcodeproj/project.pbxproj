@@ -15,6 +15,7 @@
 		D14F82AB1BF317CA008385D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14F82A91BF317CA008385D6 /* LaunchScreen.storyboard */; };
 		D14F82B61BF317CA008385D6 /* RoundLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14F82B51BF317CA008385D6 /* RoundLabelDemoTests.m */; };
 		D14F82C11BF317CA008385D6 /* RoundLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14F82C01BF317CA008385D6 /* RoundLabelDemoUITests.m */; };
+		D14F82D11BF31804008385D6 /* RoundLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D14F82D01BF31804008385D6 /* RoundLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D14F82BC1BF317CA008385D6 /* RoundLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14F82C01BF317CA008385D6 /* RoundLabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundLabelDemoUITests.m; sourceTree = "<group>"; };
 		D14F82C21BF317CA008385D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14F82CF1BF31804008385D6 /* RoundLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundLabel.h; sourceTree = "<group>"; };
+		D14F82D01BF31804008385D6 /* RoundLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		D14F829A1BF317CA008385D6 /* RoundLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D14F82CE1BF317F3008385D6 /* RoundLabel */,
 				D14F829E1BF317CA008385D6 /* AppDelegate.h */,
 				D14F829F1BF317CA008385D6 /* AppDelegate.m */,
 				D14F82A11BF317CA008385D6 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				D14F82C21BF317CA008385D6 /* Info.plist */,
 			);
 			path = RoundLabelDemoUITests;
+			sourceTree = "<group>";
+		};
+		D14F82CE1BF317F3008385D6 /* RoundLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D14F82CF1BF31804008385D6 /* RoundLabel.h */,
+				D14F82D01BF31804008385D6 /* RoundLabel.m */,
+			);
+			path = RoundLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				D14F82A31BF317CA008385D6 /* ViewController.m in Sources */,
 				D14F82A01BF317CA008385D6 /* AppDelegate.m in Sources */,
 				D14F829D1BF317CA008385D6 /* main.m in Sources */,
+				D14F82D11BF31804008385D6 /* RoundLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
